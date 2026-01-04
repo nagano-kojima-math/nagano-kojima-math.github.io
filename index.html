@@ -13,10 +13,19 @@
       line-height: 1.8;
       background: #fafafa;
     }
+
     h1 {
       font-size: 1.4rem;
+      margin-bottom: 8px;
     }
-    a {
+
+    h2 {
+      margin-top: 24px;
+      font-size: 1.2rem;
+    }
+
+    /* 資料カード用 */
+    a.card {
       display: block;
       padding: 12px;
       margin: 8px 0;
@@ -25,17 +34,28 @@
       text-decoration: none;
       color: #007aff;
     }
-  .level {
-  margin: 4px 0 0 0;
-  font-size: 0.9em;
-  color: #555;
-}
 
-.comment-list {
-  margin: 4px 0 0 1em;
-  font-size: 0.9em;
-  color: #555;
-}
+    /* 参考文献 */
+    .refs {
+      padding-left: 1.2em; /* ・の位置 */
+    }
+
+    .refs > li {
+      margin-bottom: 16px;
+    }
+
+    .level {
+      margin: 4px 0 0 0;
+      font-size: 0.9em;
+      color: #555;
+    }
+
+    .comment-list {
+      margin: 4px 0 0 1em;
+      padding-left: 1em;
+      font-size: 0.9em;
+      color: #555;
+    }
   </style>
 </head>
 <body>
@@ -43,33 +63,38 @@
 <h1>2025年度授業補足</h1>
 
 <p>ここに資料を掲載します。</p>
+
 <h2>補足資料</h2>
-<a href="docs/特殊解補足資料.pdf">特殊解補足資料</a>
+<a class="card" href="docs/特殊解補足資料.pdf">
+  特殊解補足資料
+</a>
 
 <h2>参考文献</h2>
-<ul>
+<ul class="refs">
+
   <li>
     <a href="https://www.nippyo.co.jp/shop/book/6276.html" target="_blank">
-　　　雪江明彦『整数論1』日本評論社(2013) 
-    </a>  
+      雪江明彦『整数論1』日本評論社 (2013)
+    </a>
+    <p class="level">難易度：★★★☆☆</p>
+    <ul class="comment-list">
+      <li>前提知識がなくても読める。必要な現代数学の知識は途中で回収できる。</li>
+      <li>整数論に興味を持ったらそのまま続編に進める。</li>
+    </ul>
   </li>
-</ul>
-<p class="level">難易度：★★★☆☆</p>
-<ul class="comment-list">
-  <li>前提知識がなくても読める. 必要な現代数学の知識は本の途中で回収できる.</li>
-  <li>整数論にさらに興味を持ったときにそのまま続編を読んでいけば良い.</li>
-</ul>
-<ul>
+
   <li>
     <a href="https://www.utp.or.jp/book/b300857.html" target="_blank">
-　　　東京大学教養学部統計教室編『統計学入門』東京大学出版会(1991) 
-    </a>  
+      東京大学教養学部統計教室編『統計学入門』東京大学出版会 (1991)
+    </a>
+    <p class="level">難易度：★★☆☆☆</p>
+    <ul class="comment-list">
+      <li>難しい数学を極力使わず、具体例中心で説明している。</li>
+      <li>必要な部分だけ拾い読みしやすい。</li>
+    </ul>
   </li>
+
 </ul>
-<p class="level">難易度：★★☆☆☆</p>
-<ul class="comment-list">
-  <li>統計に用いられるさまざまな概念を難しい数学の概念をなるべく導入せずに, 具体例を用いながら説明している.</li>
-  <li>必要なところを掻い摘んで読むことができる.</li>
-</ul>
+
 </body>
 </html>
