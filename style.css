@@ -28,6 +28,11 @@
       color: #007aff;
     }
 
+    /* 戻るカード用　*/
+    a.card.back {
+      background: #f2f2f2;
+    }
+
     /* 参考文献 */
     .refs {
       padding-left: 1.2em; /* ・の位置 */
