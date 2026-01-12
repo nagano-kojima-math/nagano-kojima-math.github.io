@@ -59,11 +59,12 @@
   　　　font-size: 17px;
 　　　}
 
+    /* リンクを踏んだ後色を変えないようにする*/
 　　　a.card,
 　　　a.card:visited {
   　　　color: #007aff;
 　　　}
-
+　　　/* ホバータップ時も暴れないようにする　*/
 　　　a.card:hover,
 　　　a.card:active {
   　　　opacity: 0.85;
