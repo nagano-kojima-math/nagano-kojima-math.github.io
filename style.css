@@ -5,7 +5,6 @@ body {
   line-height: 1.8;
   background: #fafafa;
   font-size: 17px;
-  background: #ffecec;
 }
 
 h1 {
@@ -35,14 +34,14 @@ a.card.back {
 }
 
 /* リンクを踏んだ後も色を変えない */
-a.card,
-a.card:visited {
+a,
+a:visited {
   color: #007aff;
 }
 
 /* ホバー・タップ時 */
-a.card:hover,
-a.card:active {
+a:hover,
+a:active {
   opacity: 0.85;
 }
 
