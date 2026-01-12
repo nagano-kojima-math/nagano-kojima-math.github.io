@@ -8,13 +8,13 @@
     }
 
     h1 {
-      font-size: 1.4rem;
+      font-size: 1.6rem;
       margin-bottom: 8px;
     }
 
     h2 {
       margin-top: 24px;
-      font-size: 1.2rem;
+      font-size: 1.3rem;
     }
 
     /* 資料カード用 */
@@ -54,4 +54,19 @@
       font-size: 0.9em;
       color: #555;
     }
+
+　　　body {
+  　　　font-size: 17px;
+　　　}
+
+　　　a.card,
+　　　a.card:visited {
+  　　　color: #007aff;
+　　　}
+
+　　　a.card:hover,
+　　　a.card:active {
+  　　　opacity: 0.85;
+　　　}
+
  
